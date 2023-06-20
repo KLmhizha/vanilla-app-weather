@@ -22,6 +22,7 @@ body {
 h1 {
 	font-weight: 400px;
 	margin-top: 45px;
+	font-size: 40px;
 	margin-bottom: 0px;
 }
 
@@ -82,4 +83,25 @@ i {
 
 #forecast {
 	font-size: 20px;
+}
+
+
+footer a {
+	color: var(--main-color);
+	font-size: 15px;
+	text-decoration: none;
+	transition: all 100ms ease-in-out;
+}
+
+
+footer a:hover {
+	color: white;
+	cursor: pointer;
+}
+
+
+@media (max-width: 900px) {
+	.container {
+		font-size: 15px;
+	}
 }
