@@ -1,0 +1,85 @@
+:root {
+	--main-font: 'Poppins', sans serif;
+	--main-color: #163d80;
+}
+
+body {
+	background: linear-gradient(180deg, #305baa 0%, #4c6fac77 75%);
+	font-family: var(--main-font);
+	color: white;
+}
+
+.container {
+	max-width: 600px;
+	margin: 30px auto;
+	padding: 10px 15px;
+	border: 1px solid var(--main-color);
+	border-radius: 4px;
+	background: var(--main-color);
+	box-shadow: 5px 5px 5px rgba(15, 15, 15 );
+}
+
+h1 {
+	font-weight: 400px;
+	margin-top: 45px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-size: 48px;
+	font-weight: 500;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+#description {
+	text-transform: capitalize;
+}
+
+form {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 16px;
+	padding: 8px;
+}
+
+#input-city {
+	padding: 5px;
+	border-radius: 4px;
+	border: 1px solid var(--main-color);
+}
+
+button {
+	padding: 5px 10px;
+	border: 1px solid white;
+	border-radius: 4px;
+	background: var(--main-color);
+	margin-left: 15px;
+}
+
+i {
+	color: white;
+	font-size: 16px;
+}
+#icon {
+	position: relative;
+	left: -18px;
+}
+
+#image {
+	position: relative;
+	left: -30px;
+}
+
+#forecast {
+	font-size: 20px;
+}
