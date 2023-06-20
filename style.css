@@ -98,10 +98,3 @@ footer a:hover {
 	color: white;
 	cursor: pointer;
 }
-
-
-@media (max-width: 900px) {
-	.container {
-		font-size: 15px;
-	}
-}
