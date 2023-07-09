@@ -79,9 +79,6 @@ i {
 	left: -30px;
 }
 
-#forecast {
-	font-size: 20px;
-}
 
 
 footer a {
@@ -99,15 +96,16 @@ footer a:hover {
 
 @media (max-width: 900px) {
  h1 {
-	font-size: 35px;
+	font-size: 30px;
  }
 
  input {
-	width: 70%;
+	width: 75%;
  }
 
- .forecast {
-	font-size: 17px;
- }
+#forecast, .overview li {
+	font-size: 18px;
+}
+
 
 }
