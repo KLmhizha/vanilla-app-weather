@@ -42,7 +42,7 @@ function displayForecast(response) {
 
 			forecastHTML = forecastHTML + 
 
-			`<div class="col-3 mt-4">
+			`<div class="col-3 mt-5">
 				<div id="forecast-date">${forecastDate(day.dt * 1000)}</div>
 				<img src = "https://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png" alt="cloudy" id="image">
 				<div class="forecast-temp">
