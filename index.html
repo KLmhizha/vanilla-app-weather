@@ -14,12 +14,10 @@
 </head>
 <body>
 	<div class="container">
-		<div>
 			<form id="control-form">
 				<input type="search" placeholder="Enter a city" id="input-city">
-				<button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+				<span><button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button></span>
 			</form>
-		</div>
 		<h1 id="city"></h1>
 		<ul>
 			<li id="date"></li>
@@ -30,13 +28,13 @@
 				<img src="https://openweathermap.org/img/wn/10d@2x.png" alt="cloudy" id="icon">
 			</div>
 			<div class="col-4">
-				<h2><span id="temperature">19</span>°</h2>
+				<h2><span id="temperature"></span>°</h2>
 			</div>
 			<div class="col-4">
 				<ul>
 					<li>Real feel: <span id="real-feel"></span>°</li>
 					<li>Humidity: <span id="humidity"></span>%</li>
-					<li>Wind: <span id="wind-speed"></span> km/h</li>
+					<li>Wind: <span id="wind-speed"></span>km/h</li>
 				</ul>
 			</div>
 		</div>
