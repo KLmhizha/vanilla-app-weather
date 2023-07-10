@@ -58,7 +58,6 @@ input {
 
 button {
 	padding: 5px 10px;
-	border: 1px solid white;
 	border-radius: 4px;
 	background: var(--main-color);
 }
