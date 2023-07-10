@@ -44,8 +44,7 @@ li {
 	text-transform: capitalize;
 }
 
-form {
-	text-align: center;
+form {	
 	margin-top: 10px;
 	font-size: 16px;
 	padding: 8px;
@@ -62,17 +61,13 @@ button {
 	border: 1px solid white;
 	border-radius: 4px;
 	background: var(--main-color);
-	margin-left: 15px;
 }
 
 i {
 	color: white;
 	font-size: 16px;
 }
-#icon {
-	position: relative;
-	left: -18px;
-}
+
 
 #image {
 	position: relative;
@@ -99,13 +94,12 @@ footer a:hover {
 	font-size: 30px;
  }
 
- input {
-	width: 75%;
- }
+
 
 #forecast, .overview li {
-	font-size: 16px;
+	font-size: 17px;
 }
+
 
 
 }
