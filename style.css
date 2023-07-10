@@ -58,6 +58,7 @@ input {
 
 button {
 	padding: 5px 10px;
+	border: 1px solid white;
 	border-radius: 4px;
 	background: var(--main-color);
 }
@@ -93,7 +94,13 @@ footer a:hover {
 	font-size: 30px;
  }
 
+button {
+	background: white;
+}
 
+i {
+	color: var(--main-color);
+}
 
 #forecast, .overview li {
 	font-size: 17px;
