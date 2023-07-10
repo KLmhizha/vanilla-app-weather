@@ -102,6 +102,10 @@ i {
 	color: var(--main-color);
 }
 
+input {
+	padding: 7px;
+}
+
 #forecast, .overview li {
 	font-size: 17px;
 }
